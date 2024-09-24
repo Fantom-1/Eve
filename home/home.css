@@ -1,0 +1,195 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.navbar{
+    position: sticky;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0.5rem 0.7rem;
+}
+
+.logo{
+    height: 4.5rem;  
+    margin-top: -0.5rem;  
+}
+
+.home{
+    display: flex;
+}
+
+.home i{
+    font-size: 150%;
+    margin-right: 0.5rem;
+}
+
+.nav_options{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.nav_options .home:hover{
+    font-weight: 900;
+}
+
+.nav_options h4:hover{
+    font-weight: 900;
+}
+
+.content{
+    display: flex;
+    background-color: #000;
+    padding: 0.4rem;
+}
+.side_panel{
+    background-color: #121212;
+    height: 90vh;
+    width: 400px;
+    margin-right: 0.4rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+
+}
+
+.panel_options{
+    margin-top: 2rem;
+}
+
+.plus{
+    display: flex;
+    align-items: baseline;
+}
+
+.plus i{
+    font-weight: 600;
+    margin:0 0.5rem -0.5rem 0 ;
+}
+
+.create{
+    background-image: linear-gradient(#4da8ea, #a000ce);
+    border: none;
+}
+
+.create:hover{
+    transform: scale(1.05);
+}
+
+.main_content{
+    overflow: auto;
+    background-color: #242424;
+    height: 90vh;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.search_bar{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin:0.2rem 0 0.7rem 0;
+}
+
+.search_bar i{
+    font-size: 1.5rem;
+    position: relative;
+    top: 4px;
+    left: 40px;
+}
+
+.search_bar input{
+    height: 2.5rem;
+    width: 40%;
+    border: 1.5px solid white;
+    background-color: #121212;
+    color: white;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+h2{
+    margin-left: 4rem;
+    font-family: cursive;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.card{
+    background-color: #121212;
+    color: white;
+    margin: 1.5rem;
+    padding: 0.4rem;
+    height: 25rem;
+    width: 45px;
+    border-radius: 0.5rem;
+    transition: 0.3s ease ;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 16px white;
+}
+
+.card-body{
+    padding: 0.4rem;
+
+}
+
+.card-title{
+    margin-bottom: 0.3rem;
+}
+
+.card-title:hover{
+    font-weight: 700;
+}
+
+.card-text:hover{
+    text-decoration: underline;
+}
+
+.card img{
+    height: 15rem;
+    border-radius: 0.5rem;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.innerbtn:hover{
+    transform: scale(1.05);
+}
+.logo{
+    font-weight: 700;
+}
+
+
+.btn{
+    border-width: 3px;
+    margin-bottom: 0.6rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.blog_btn{
+    background-color: #FF8343;
+    border-color: #FF8343;
+    font-weight: 600;
+    color: white;
+}

@@ -1,0 +1,100 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    overflow: hidden;
+}
+
+.main{
+    padding: 3rem;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.logo{
+    height: 6rem;
+}
+
+.input, .forgot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    padding: 0.4rem 0.7rem;
+}
+
+.label{
+    margin: 0.8rem 0.8rem 0.5rem 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.label1{
+    margin-right: 8rem;
+    margin-bottom: 0.2rem;
+}
+
+.label2{
+    margin-right: 15rem;
+    margin-bottom: 0.2rem;
+}
+
+.eye{
+    position: relative;
+    bottom: 1.7rem;
+    left: 8rem;
+    color: black;
+}
+
+
+.form_input{
+    width: 20rem;
+    border-radius: 1.5rem;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+button{
+    width: 20rem;
+    border-radius: 1.5rem;
+    padding: 0.4rem 0.7rem;
+}
+
+a{
+    color: white;
+}
+
+.opt1{
+    margin-top: 1.7rem;
+}
+
+.opt1:hover{
+    color: #0d6efd;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7rem;
+}
+
+.opt2{
+    margin-left: .5rem;
+}
+
+.opt2:hover{
+    color: #0d6efd;
+}
+
+
+
